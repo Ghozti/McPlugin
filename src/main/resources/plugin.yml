@@ -1,0 +1,5 @@
+name: GhoztIn
+version: '${project.version}'
+main: me.ghozti.plugin.Main
+api-version: 1.17
+authors: [ ghozti ]
