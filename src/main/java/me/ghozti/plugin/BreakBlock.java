@@ -13,7 +13,7 @@ public class BreakBlock implements Listener {
     public void onPlayerBreakBlock(BlockBreakEvent event){
         Block block = event.getBlock();
 
-        if (block.getType() == Material.DIAMOND_ORE){
+        if (block.getType() == Material.GRASS_BLOCK){
             event.setCancelled(true);
             block.setType(Material.WHITE_WOOL);
             ItemStack diamonds = new ItemStack(Material.DIAMOND, 55);
